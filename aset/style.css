@@ -56,7 +56,7 @@ nav ul li button:hover
     background-color:  rgb(221, 10, 10);
     color: black;
     cursor: pointer;
-    transition: 2s;
+    transition: 2gits;
 }
 
 nav ul li:hover
