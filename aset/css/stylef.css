@@ -1,0 +1,113 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body
+{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        background-image: url(/site-cin-ma/site-cin-ma/aset/image/Form.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+}
+
+
+         .parent
+        {
+            height: 40pc;
+            width: 34pc;
+            background-color: rgb(189, 196, 202);
+            border-radius: 4px;
+            border-color: antiquewhite;
+            border: 12px;
+            display: inline-block;
+            margin-top:60px;
+
+        }
+     .titre input
+     {
+        height: 3pc;
+        width: 100%;
+        border-radius: 5px;
+        padding-left: 1%; padding-right: 1%;
+     }
+     .titre{
+        margin-top: 29px;
+
+     }
+     .button 
+     {
+        border-radius: 29px;
+        background-color: rgb(250, 250, 35);
+         width: 24pc;
+        height: 45px;
+        margin-top: 89px;
+        margin-left: 70px;
+        cursor: pointer;
+     }
+      input 
+      {
+         font-size: 20px;
+         outline: none;
+         padding-left: 1%; padding-right: 1%;
+      }
+     .button:hover{
+      color: brown;
+      background-color: chocolate;
+      transition: 2s;
+     }
+     .titre label
+     {
+        font-size: 24px;
+     }
+     .logo
+     {
+        height: 24px;
+        width: 130px;
+        background-color: blue;
+        display: block;
+        margin-left: 190px; ;
+     }
+     u
+     {
+        color: blue;
+     }
+    
+     h3
+     {
+        color: black;
+     }
+     select
+     {
+      height: 45px;
+      width: 539px;
+      font-size: 20px;
+    }
+     footer
+          {
+         
+         bottom: 0;
+         width: 100%;
+         height: 80px;
+         background-color: rgb(245, 249, 253);
+         line-height: 50px;
+         font-size: 18px;
+         text-align: center;
+         margin-top: 45px;
+         
+      }
+
+      .footer-content
+      {
+       display: flex;
+       justify-content: center;
+       gap: 30px;
+      }
+
